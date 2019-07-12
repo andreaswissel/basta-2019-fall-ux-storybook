@@ -1,0 +1,20 @@
+{
+  "core": {
+    "workingDir": ".reg",
+    "actualDir": "directory_contains_actual_images",
+    "thresholdRate": 0,
+    "addIgnore": true,
+    "ximgdiff": {
+      "invocationType": "client"
+    }
+  },
+  "plugins": {
+    "reg-keygen-git-hash-plugin": true,
+    "reg-notify-github-plugin": {
+      "clientId": ""
+    },
+    "reg-notify-slack-plugin": {
+      "webhookUrl": "your_incoming_webhook_url"
+    }
+  }
+}
